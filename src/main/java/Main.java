@@ -31,7 +31,7 @@ public class Main {
        }
        
        case "cat-file" -> {
-    	   String hash = args[1];
+    	   String hash = args[2];
     	   String hashDir = hash.substring(0, 2);
     	   String hashFile = hash.substring(2);
     	   
